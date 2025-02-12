@@ -66,3 +66,17 @@
 | margin loss + distance weighted sampling | 78.07   | 79.58   | 79.93   |
 > 성능 평가 지표로는 Recall@1을 사용하였다. <br>
 Recall@k 지표는 쿼리 이미지와 데이터베이스의 모든 이미지들 간의 코사인 유사도를 계산하여, 가장 유사한 이미지 k장을 추출했을 때 해당 이미지가 쿼리 이미지와 동일한 클래스라면 1, 다른 클래스라면 0으로 결과를 낸다. 이때 모든 쿼리 이미지에 대한 해당 결과의 평균값이 Recall@가 된다.
+
+
+**4. 참고문헌 및 사이트**
+[1] He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the 
+IEEE conference on computer vision and pattern recognition. 2016. Shen, Shufan, et al.  
+[2] Schroff, Florian, Dmitry Kalenichenko, and James Philbin. "Facenet: A unified 
+embedding for face recognition and clustering." Proceedings of the IEEE conference on 
+computer vision and pattern recognition. 2015. 
+[3] Wu, Chao-Yuan, et al. "Sampling matters in deep embedding learning." Proceedings of 
+the IEEE international conference on computer vision. 2017.  
+[4] <https://github.com/rksltnl/Deep-Metric-Learning-CVPR16>
+[5] <https://github.com/Confusezius/Deep-Metric-Learning-Baselines> 
+
+
