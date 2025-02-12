@@ -6,6 +6,7 @@
 
 **1. 서론**
 
+
 &nbsp;&nbsp;이미지 검색(Image Retrieval)은 사용자가 입력(Qeury)와 가장 유사한 샘플을 데이터베이스로부터 찾는 Task이다.  
 
 &nbsp;&nbsp;본 프로젝트에서는 Metric Learning을 기반으로 CNN모델을 학습하여 이미지 기반 이미지 검색을 구현하였다.  
@@ -13,8 +14,7 @@
   
 **2. 접근방식**
 
-![접근방식]("C:\Users\syw\Desktop\process.png")
-
+![process](https://github.com/user-attachments/assets/a45c99b4-4aa6-4aed-87e8-20f74cf043af)
 &nbsp;&nbsp;Metric Learning은 사용해 데이터를 특정 임베딩 공간으로 변환하여 유사성(Similarity) 혹은, 거리(Distance) 기반으로 데이터의 관계를 학습시키는 방법이다.
 
 * 본 프로젝트에서는 RestNet  모델을 사용하여 입력 이미지로부터 Feature을 추출한 이후, 출력 벡터를 임베딩 벡터로 변환하여 Metric Learning을 진행하였다.
@@ -50,7 +50,7 @@
 3. 실험 결과
 >  &nbsp;&nbsp; [2]와 [3]의 논문 결과를 확인하고자 1. Triplet Loss + Semi-hard Negative Sampling 2. Triplet Loss + Random Sampling 3. Margin Based Loss + Distance  weighted Sampling 4. Margin Based Loss + Random Sampling, 총 4가지 조합의 실험을 진행하였다.  <br>
 &nbsp;&nbsp; epoch 수는 모든 세팅에서 동일하게 40으로 설정하였고, 훈련 데이터에서의 Loss는 매 epoch마다, 검증 데이터에서의 Loss는 5 epoch마다 측정하였다. 추가로, 검증 Loss의 값이 5번 이상 감소되지 않는다면 학습이 종료되도록 설정하였다.  
-![실험결과]("C:\Users\syw\Desktop\그래프.png")  
+![그래프](https://github.com/user-attachments/assets/390818a8-9d11-4155-bb94-14f186ac4f82)
 * 과적합 방지를 위해 50% 확률로 RandomResizedCrop, RandomHorizontalFlip 두 가지 Data Augmentation을 사용하였다.
 * Optimizer는 Adam optimimer을 사용  
 * 30 epoch 이전까지는 1e-5 학습률을 유지, 이후는 학습률을 70% 감소하여 3e-6을 유지하도록 설정하였으며, λ = 4e-5의 L2 규제항을 적용하였다.
