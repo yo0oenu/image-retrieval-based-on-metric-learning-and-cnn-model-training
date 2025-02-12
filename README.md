@@ -72,7 +72,7 @@ Recall@k 지표는 쿼리 이미지와 데이터베이스의 모든 이미지들
 [1] He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016. Shen, Shufan, et al. <br>
 [2] Schroff, Florian, Dmitry Kalenichenko, and James Philbin. "Facenet: A unified embedding for face recognition and clustering." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015. <br>
 [3] Wu, Chao-Yuan, et al. "Sampling matters in deep embedding learning." Proceedings of the IEEE international conference on computer vision. 2017. <br>
-[4] <https://github.com/rksltnl/Deep-Metric-Learning-CVPR16>  <br>
+[4] <https://github.com/rksltnl/Deep-Metric-Learning-CVPR16> 
 [5] <https://github.com/Confusezius/Deep-Metric-Learning-Baselines> 
 
 
