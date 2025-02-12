@@ -17,7 +17,7 @@
 ![process](https://github.com/user-attachments/assets/a45c99b4-4aa6-4aed-87e8-20f74cf043af)
 
 
-&nbsp;&nbsp;Metric Learning은 사용해 데이터를 특정 임베딩 공간으로 변환하여 유사성(Similarity) 혹은, 거리(Distance) 기반으로 데이터의 관계를 학습시키는 방법이다.
+&nbsp;Metric Learning은 사용해 데이터를 특정 임베딩 공간으로 변환하여 유사성(Similarity) 혹은, 거리(Distance) 기반으로 데이터의 관계를 학습시키는 방법이다.
 
 * 본 프로젝트에서는 RestNet  모델을 사용하여 입력 이미지로부터 Feature을 추출한 이후, 출력 벡터를 임베딩 벡터로 변환하여 Metric Learning을 진행하였다.
 
