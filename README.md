@@ -4,15 +4,12 @@
 ###### 글로벌테크노경영학과 신연우
 * * *
 
-**1. 서론**
-
-
-&nbsp;&nbsp;이미지 검색(Image Retrieval)은 사용자가 입력(Qeury)와 가장 유사한 샘플을 데이터베이스로부터 찾는 Task이다.  
+**1. Introduction**
 
 &nbsp;&nbsp;본 프로젝트에서는 Metric Learning을 기반으로 CNN모델을 학습하여 이미지 기반 이미지 검색을 구현하였다.  
 
   
-**2. 접근방식**
+**2. Method**
 
 ![process](https://github.com/user-attachments/assets/a45c99b4-4aa6-4aed-87e8-20f74cf043af)
 
@@ -28,7 +25,7 @@
 [ 2 ]: Margin Based Loss 
 
 
-**3. 결과**
+**3. Experiments**
 
 1. 데이터셋 구성
 
