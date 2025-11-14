@@ -1,5 +1,5 @@
 # [24-2학기 기계학습 텀프로젝트]
-#### 주제: Image Retrieval Based on Metric Learning and CNN Model Training
+## Image Retrieval Based on Metric Learning and CNN Model Training
 ###### 전기정보공학과 조원호      
 ###### 글로벌테크노경영학과 신연우
 * * *
